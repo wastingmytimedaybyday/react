@@ -1,1 +1,1 @@
-# react-ja-redux-projektit
+# react
