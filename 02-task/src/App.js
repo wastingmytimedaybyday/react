@@ -1,4 +1,6 @@
 import './App.css';
+import './Person/Person.js'
+import Person from './Person/Person.js';
 
 const App = () => {
   return (
@@ -7,4 +9,5 @@ const App = () => {
     </div>
   );
 }
-export default App;
+export default Person;
+
