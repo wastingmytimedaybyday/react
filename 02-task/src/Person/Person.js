@@ -1,9 +1,9 @@
 import './Person.css';
 
-const Person = () => {
+const Person = (props) => {
   return (
-    <div>
-      <p className="Person">Hello, my name is IIIIII, and I am IIIIII old.</p>
+    <div className="Person">
+      <p className='punainen'>Nimi on {props.name}, ikä on {props.age}.</p>
     </div>
   );
 }
